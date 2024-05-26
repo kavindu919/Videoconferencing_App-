@@ -15,7 +15,7 @@ const Sidebar = () => {
         {sidebarLinks.map((link) => {
           //cheak is link currently active
           const isActive =
-            pathname === link.route || pathname.startsWith(link.route);
+            pathname === link.route || pathname.startsWith(`${link.route}/`);
 
           return (
             <Link
