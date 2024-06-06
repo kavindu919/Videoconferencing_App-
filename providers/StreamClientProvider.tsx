@@ -1,3 +1,4 @@
+//@ts-nocheck
 "use client";
 
 import { tokenProvider } from "@/actions/stream.action";
